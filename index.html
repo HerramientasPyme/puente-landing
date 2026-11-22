@@ -211,6 +211,34 @@
       .footer-links { gap: 28px; }
     }
 
+    /* ── Ventajas ──────────────────────────────────────── */
+    .ventajas-section { background: var(--gray-50); }
+    .ventajas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 36px;
+    }
+    .ventaja-card {
+      background: var(--white);
+      border: 1.5px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+    .ventaja-card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .ventaja-card p {
+      font-size: 0.87rem;
+      color: var(--gray-500);
+      margin: 0;
+      line-height: 1.6;
+    }
+
     /* ── Paquetes ─────────────────────────────────────── */
     .paquetes-section { background: var(--white); }
     .paquetes-grid {
@@ -607,6 +635,54 @@
   </div>
 </section>
 
+<!-- ══ POR QUÉ PUENTE CONTABLE ══════════════════════════ -->
+<section class="section ventajas-section">
+  <div class="section-label">¿Por qué Puente Contable?</div>
+  <h2>Lo que hace diferente al sistema</h2>
+  <div class="ventajas-grid">
+    <div class="ventaja-card">
+      <h3>Tu cliente trabaja adentro, vos decidís qué ve</h3>
+      <p>Tus clientes cargan comprobantes y su caja con su propio usuario. Vos revisás, cerrás el mes y compartís impuestos y recibos de sueldo cuando están listos; les llega un aviso por email.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Se carga una vez y sale todo de ahí</h3>
+      <p>Con lo importado de ARCA, los sueldos, las cobranzas y los bancos se arman solos el Libro IVA, la posición de IVA, Ingresos Brutos y los asientos contables. Nada se carga dos veces.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Lee los archivos que ya tenés</h3>
+      <p>Mis Comprobantes, percepciones y retenciones de ARBA y de SIFERE, extractos bancarios en PDF o Excel (también Mercado Pago), el F.572 del SiRADIG y planillas de otros sistemas.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Te deja listo lo que hay que presentar</h3>
+      <p>Libro IVA Digital, Libro de Sueldos Digital, archivos de SIFERE Web, F.1359 y papeles de trabajo en PDF de cada liquidación, para archivar o mandarle al cliente.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Convenio Multilateral en serio</h3>
+      <p>Coeficientes del CM05 calculados, distribución por jurisdicción y por actividad con los regímenes especiales, saldos a favor que se arrastran y el archivo para SIFERE Web.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Sueldos de punta a punta</h3>
+      <p>Haberes, vacaciones, SAC y liquidación final con indemnización; Ganancias con el F.572; recibos con la composición del costo laboral; reportes por entidad y Libro de Sueldos Digital. Con varios convenios y personal fuera de convenio.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Contabilidad al día con la RT 54</h3>
+      <p>Asientos automáticos, diario, mayor y sumas y saldos. Estados contables con flujo de efectivo, evolución del patrimonio neto, notas y anexos. Ajuste por inflación (RT 6) partida por partida, también para estados intermedios.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Toda la cartera de un vistazo</h3>
+      <p>Un panel con los vencimientos de cada empresa según su CUIT, los meses por cerrar y lo que cargaron tus clientes desde la última vez que entraste.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Tus datos son tuyos</h3>
+      <p>Cuando quieras bajás una copia completa de cada empresa en Excel para guardar en tu computadora. Lo que cerraste queda cerrado y no se modifica por error.</p>
+    </div>
+    <div class="ventaja-card">
+      <h3>Sin instalar nada</h3>
+      <p>Funciona en el navegador, en la computadora o en el celular, con usuarios ilimitados para todo el estudio.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ══ PAQUETES ══════════════════════════════════════════ -->
 <section class="section paquetes-section">
   <div class="section-label">Módulos</div>
@@ -774,7 +850,7 @@
     </details>
     <details>
       <summary>¿Dónde están guardados los datos?</summary>
-      <div class="faq-body">En Supabase (Postgres), con backups diarios. Los servidores están en la nube, con cifrado en tránsito y en reposo. Los datos son tuyos y podés exportarlos cuando quieras.</div>
+      <div class="faq-body">En la nube, con backups diarios y cifrado en tránsito y en reposo. Cuando quieras bajás una copia completa de cada empresa en Excel para tener en tu computadora.</div>
     </details>
     <details>
       <summary>¿Cómo me comunico si tengo una duda?</summary>
